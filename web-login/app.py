@@ -8,7 +8,7 @@ app.secret_key = "pass"
 app.config['MYSQL_HOST'] = "localhost"
 app.config['MYSQL_USER'] = "root"
 app.config['MYSQL_DB'] = "users"
-app.config['MYSQL_PASSWORD'] = "Kakodark5."
+app.config['MYSQL_PASSWORD'] = "---"
 mysql = MySQL(app)
 
 @app.route("/")
